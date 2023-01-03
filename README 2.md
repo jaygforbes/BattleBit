@@ -1,6 +1,6 @@
 ## battleBit: A bit-wise implementation of BattleShip
 
-The project is a bit-based version of [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)). Rather than a 10x10 board as in the original game, battleBit will use an 8x8 board, allowing board state to be stored in a set of 64-bit integers.
+The project for CS366 is a bit-based version of [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)). Rather than a 10x10 board as in the original game, battleBit will use an 8x8 board, allowing board state to be stored in a set of 64-bit integers.
 
 ### Ships & Board Specifications
 
@@ -128,3 +128,11 @@ fire [0-7] [0-7] - fire at the given position of the opponent
 exit - quit the server
 ```
 
+#### Grading Rubric
+
+The grading will be mainly based on automated tests.
+
+The grading will break down like so:
+
+* 85% automated tests
+* 15% code quality
